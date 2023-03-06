@@ -1,0 +1,83 @@
+div.container {
+    background-color: rgba(128, 128, 128, 0.247);
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    justify-content: center;
+
+}
+
+.item1 {
+    grid-row: 1/4;
+    grid-column: 1/4;
+    background-color: rgba(255, 0, 0, 0.336);
+z-index: 1;
+}
+
+.item2 {
+    grid-row: 2/5;
+    grid-column: 2/5;
+    background-color: rgba(0, 128, 0, 0.315);
+}
+
+.item3 {
+    grid-row: 3/6;
+    grid-column: 3/6;
+    background-color: rgba(0, 17, 255, 0.644);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* p {
+    background-color: 134 128 246 .5;
+    color: white;
+}
+
+div {
+    height: 100%;
+    width: 100%;
+    background-image: url("/images/dmitry-ant-n97sg7QLBBM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    background-image: url("/images/dmitry-ant-n97sg7QLBBM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top right;
+    background-size: cover;
+}
+
+span {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(107, 99, 99);
+    border-radius: 5px;
+    width: 70px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+span.ma {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(107, 99, 99);
+    border-radius: 5px;
+    width: 70px;
+    text-align: center;
+    border: 3px solid black;
+    outline: 3px solid red;
+} */
