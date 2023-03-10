@@ -1,0 +1,20 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+
+}
+
+div {
+    word-spacing: 5px;
+    line-height: 1.6;
+    text-indent: 5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
