@@ -28,5 +28,14 @@
 // let p =document.createElement("p")
 // p.textContent=`Welcome ${firstname.trim().charAt(0).toLocaleUpperCase()}.${lastname}`;
 // ----------------------------------------section-------------------------------------------------------------
-let gender = prompt("enter your gender : ");
-document.write( `Gender :${gender == "male" ? "Male" : "Female"}`)
+// let gender = prompt("enter your gender : ");
+// document.write( `Gender :${gender == "male" ? "Male" : "Female"}`)
+// ------------------------------------------------------------------------------------------------------------
+let errMsg = "This is the error massage";
+
+try {
+    console.log(i);
+
+} catch (error) {
+    console.log(error, errMsg);
+}
